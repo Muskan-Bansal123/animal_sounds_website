@@ -1,0 +1,94 @@
+body{
+    background-color:#181818;
+}
+
+h1{
+    font-family: 'Abril Fatface',cursive;
+    text-shadow:2px 4px 2px black;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 27px;
+    color:white;
+}
+.container
+{
+width: 80%;
+margin: auto;
+text-align: center;
+}
+
+img{
+    height: 300px;
+    width: 320px;
+    padding:16px;
+}
+.imgtext{
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    padding: 6px;
+    overflow: auto;
+    box-sizing: padding-box;
+    background: linear-gradient(to right, #59e4ec, #FFFFFF); /* Adjust the direction and colors as needed */
+    
+    box-shadow:5px 2px 6px black;
+    margin-bottom: 3rem;
+    display: inline-block;
+    margin: 0 2%;
+    margin-bottom: 40px;
+
+}
+
+.btn{
+    height: 35px;
+    width:200px;
+    background-color:#FFB38E;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 1rem;
+    font-weight: bold;
+}
+p{
+    background-color: #FFFDCB;
+    font-size:1.1em;
+    font-family: Calibri;
+    font-weight: bolder;
+}
+footer{
+    height: 10vh;
+    font-family:'Abril Fatface',cursive;
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+}
+.pressed{
+    box-shadow: 0 5px 5px 0 white;
+    opacity: 0.8;
+    
+ }
+.btn:hover{
+    background-color:lightgreen;
+}
+@media (max-width:500px)
+{
+    .imgtext{
+        width: 250px;
+        height: 300px;
+        margin: 0 1%;
+       }
+
+    img{
+        height: 150px;
+        width: 170px;
+    }
+    h1{
+        font-size: 3.2em;
+    }
+    p,footer{
+        font-size: 0.9rem;
+    }
+    .btn{
+       width:150px;
+       height: 26px;
+    }
+
+}
