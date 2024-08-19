@@ -1,7 +1,7 @@
 function playsound(chosen){
 
     switch (chosen) {
-        case "lion": var audio1 = new Audio("/audios/lion_1.mp3");
+        case "lion": var audio1 = new Audio("audios/lion_1.mp");
             audio1.play();
             setTimeout(function () {
                 audio1.pause();
